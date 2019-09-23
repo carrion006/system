@@ -1,0 +1,9 @@
+READ		START	        1000
+0		LDX		ZERO
+0		LDA		ZERO
+RLOOP	        TD		INPUT
+0		JEQ		RLOOP
+ZERO		WORD	         0
+INPUT		BYTE		X'F1'
+0		END		1000
+

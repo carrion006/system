@@ -1,0 +1,5 @@
+LDA 	3A
+LDX 	3B
+TD 	1A
+JEQ 	4A
+
